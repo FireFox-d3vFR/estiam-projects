@@ -1,0 +1,66 @@
+{
+  "courses": [
+    {
+      "id": "1",
+      "name": "Angular Fondamentaux",
+      "description": "Apprenez les bases d'Angular",
+      "duration": 20,
+      "image": "assets/images/angular.png",
+      "createdAt": "2024-01-15",
+      "published": true
+    },
+    {
+      "id": "2",
+      "name": "React Avancé",
+      "description": "Maîtrisez React et Redux",
+      "duration": 25,
+      "image": "angular.png",
+      "createdAt": "2024-01-16",
+      "published": true
+    },
+    {
+      "id": "3",
+      "name": "PowerBi",
+      "description": "Découverte",
+      "duration": 25,
+      "createdAt": "2025-01-31T02:34:06.756Z",
+      "published": false
+    },
+    {
+      "id": "4",
+      "name": "C++",
+      "description": "Découverte de la Programmation Orienté Objet",
+      "duration": 34,
+      "createdAt": "2025-01-31T02:44:21.355Z",
+      "published": true
+    },
+    {
+      "id": "5",
+      "name": "C#",
+      "description": "Suite",
+      "duration": 14,
+      "createdAt": "2025-01-31T03:23:45.555Z",
+      "published": true
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "admin",
+      "role": "admin"
+    },
+    {
+      "id": "75f4",
+      "username": "test",
+      "password": "test",
+      "role": "user"
+    },
+    {
+      "id": "5acf",
+      "username": "testadmin",
+      "password": "testadmin",
+      "role": "admin"
+    }
+  ]
+}

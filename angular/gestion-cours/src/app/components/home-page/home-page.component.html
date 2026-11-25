@@ -1,0 +1,10 @@
+<div class="hero">
+  <h1>Bienvenue sur notre plateforme de cours</h1>
+  <p>Découvrez nos cours disponibles et commencez votre apprentissage dès aujourd'hui !</p>
+</div>
+
+<h3>Nos derniers cours</h3>
+
+<div class="course-list">
+  <app-courses-card *ngFor="let course of courses" [course]="course" [isNew]="isNewCourse(course.id)"></app-courses-card>
+</div>

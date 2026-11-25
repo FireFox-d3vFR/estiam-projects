@@ -1,0 +1,7 @@
+<div class="courses-page">
+  <h1>Nos Cours</h1>
+  <!-- Afficher les cartes -->
+  <div class="courses-list">
+    <app-courses-card *ngFor="let course of courses; let i = index" [isNew]="isNewCourse(course.id)" [course]="course"></app-courses-card>
+  </div>
+</div>
